@@ -1,0 +1,14 @@
+CREATE TABLE `id_tokosembako` (
+  `ID` int(5) NOT NULL,
+  `bahan baku` varchar(50) NOT NULL,
+  `harga` varchar(50) NOT NULL,
+  `stok` int(100) NOT NULL
+);
+
+INSERT INTO `id_tokosembako` (`ID`, `bahan baku`, `harga`, `stok`) VALUES
+(1, 'beras merah', '15.000', 150),
+(2, 'mie instan', '4.000', 200),
+(3, 'sabun', '5.000', 50),
+(4, 'kopi', '2.500', 120),
+(5, 'shampo', '1.500', 200),
+(6, 'telur', '3.000', 150);
